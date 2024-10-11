@@ -123,3 +123,7 @@ a {
     font-style: normal;
     font-weight: bold;
 }
+.hrightitems{
+    display: flex;
+    gap:10px
+}
