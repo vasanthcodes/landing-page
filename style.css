@@ -1,9 +1,125 @@
-body{
-    dispay:flex;
-    background-color:red;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  font-family: "Roboto";
+  margin: 0;
+  box-sizing: content-box;
+  /* justify-content: space-between; */
 }
-header{
-    dispay:flex;
-    flex-direction:column;
-    
+body {
+  display: flex;
+  flex-direction: column;
+  /* width:800px ; */
+  justify-content: space-between;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2937;
+  color: white;
+}
+.hb1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 100px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+.hb2 {
+  display: flex;
+  padding: 50px 100px;
+  justify-content: space-between;
+}
+footer {
+  padding: 10px 100px;
+  display: flex;
+  flex: 1;
+  background-color: #1f2937;
+  color: #f9faf8;
+  justify-content: center;
+}
+h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+#HST {
+  font-size: 24px;
+  color: #e5e7eb;
+}
+.main-body {
+  /* padding: 10px 100px; */
+  flex: 1;
+}
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#but1 {
+  background-color: #3882f6;
+  border-radius: 10px;
+  color: white;
+  padding: 2px 30px;
+  margin-top: 30px;
+}
+a {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+#smthg {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  text-align: center;
+  padding: 30px 0px;
+}
+.blockimg {
+  display: flex;
+  gap: 40px;
+  /* padding: 0px 100px; */
+  padding-bottom: 40px;
+  padding: 10px 100px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.blockimg img {
+  width: 300px;
+  display: block;
+}
+.mb2{
+    background-color: #e5e7eb;
+    flex: 1;
+    font-size: 32px;
+    font-style: italic;
+    color: #1f2937;
+    padding: 40px 130px;;
+}
+.mb3{
+    padding: 50px 100px;
+    background-color: #3882f6;
+    margin: 80px;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    border-radius: 15px;
+
+}
+#but2{
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: white;
+    border:  1px solid white;
+}
+#by{
+    display: flex;
+    justify-content: flex-end;
+    font-size: medium;
+    font-style: normal;
+    font-weight: bold;
 }
