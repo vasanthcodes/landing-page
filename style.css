@@ -1,0 +1,9 @@
+body{
+    dispay:flex;
+    background-color:red;
+}
+header{
+    dispay:flex;
+    flex-direction:column;
+    
+}
