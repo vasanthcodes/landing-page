@@ -87,6 +87,7 @@ a {
   padding: 10px 100px;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  
 }
 .blockimg img {
   width: 300px;
@@ -126,4 +127,8 @@ a {
 .hrightitems{
     display: flex;
     gap:10px
+}
+.blockimg div p{
+    display: flex;
+    justify-content: center;
 }
